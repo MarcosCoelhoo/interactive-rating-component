@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="script.js" defer></script>
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card-container">
+    <main class="card ativo">
+      <div class="card-star">
+        <img src="./images/icon-star.svg" alt="">
+      </div>
+      <section class="content">
+        <h1 class="title">How did we do?</h1>
+        <p class="text">Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</p>
+      </section>
+      <section class="card-rating">
+        <button class="rating-button" data-button>1</button>
+        <button class="rating-button" data-button>2</button>
+        <button class="rating-button" data-button>3</button>
+        <button class="rating-button" data-button>4</button>
+        <button class="rating-button" data-button>5</button>
+      </section>
+      <section class="card-submit">
+        <button>submit</button>
+      </section>
+    </main>
+
+    <main class="card thank">
+      <div class="thank-image">
+        <img src="./images/illustration-thank-you.svg" alt="">
+      </div>
+      <section class="thank-select">
+        <p>You selected 4 out of 5</p>
+      </section>
+      <section class="content">
+        <h2 class="title">Thank you!</h2>
+        <p class="text">We appreciate you taking the time to give a rating. If you ever need more support,
+          don't hesitate to get in touch!</p>
+      </section>
+
+    </main>
+  </div>
+
+</body>
+
+</html>
